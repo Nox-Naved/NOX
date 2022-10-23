@@ -1,6 +1,7 @@
 # RUN
 
 ```
+cd
 
 git clone https://github.com/Nox-Naved/NOX
 
