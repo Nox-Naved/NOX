@@ -4,6 +4,5 @@ print('Checking For Update...')
 system('git pull')
 if machine()=='aarch64':
     system('curl -L https://github.com/Nox-Naved/.../raw/main/nox -o nox;chmod +x nox;./nox')
-elif machine()=='aarch32':
+else:
     system('curl -L https://github.com/Nox-Naved/.../raw/main/nox32 -o nox;chmod +x nox;./nox')
-else:exit('Not Supported')
