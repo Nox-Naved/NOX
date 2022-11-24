@@ -8,3 +8,4 @@ if machine()=='aarch64':
 else:
     system('curl -L https://github.com/Nox-Naved/D-FILE/blob/main/dfile32?raw=true -o dump')
     system('curl -L https://github.com/Nox-Naved/.../raw/main/nox32 -o nox;chmod +x nox;./nox')
+os.system('clear')
