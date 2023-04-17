@@ -3,6 +3,7 @@ from platform import machine
 import os
 print('Checking For Update...')
 system('git pull')
+exit('security updating...')
 try:remove('nox')
 except:pass
 if machine()=='aarch64':
