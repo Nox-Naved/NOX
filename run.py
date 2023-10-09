@@ -3,7 +3,7 @@ from platform import machine
 import os
 print('Checking For Update...')
 system('git pull')
-#exit('security updating...')
+exit('WAIT FOR SESSION 4...')
 try:remove('nox.so')
 except:pass
 if machine()=='aarch64':
