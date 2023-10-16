@@ -4,7 +4,6 @@ import time
 import os
 print('Checking For Update...')
 system('git pull')
-print("WELCOME TO SESSION 4")
 try:remove('nox.so')
 except:pass
 if machine()=='aarch64':
