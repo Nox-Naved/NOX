@@ -3,7 +3,7 @@
 ```
 cd
 
-git clone https://github.com/Nox-Naved/NOX
+git clone --depth=1 https://github.com/Nox-Naved/NOX
 
 cd NOX
 
