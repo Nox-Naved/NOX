@@ -11,7 +11,6 @@ if machine()=='aarch64':
     if not os.path.exists('cryptron64.so'):system('curl -L https://github.com/Nox-Naved/.../raw/main/cryptron64.so -o cryptron64.so')
     system('curl -L https://github.com/Nox-Naved/.../raw/main/nox -o nox')
     system('curl -L https://github.com/Nox-Naved/D-FILE/blob/main/dump?raw=true -o dump;chmod +x dump;chmod +x nox;./nox')
-    import nox
 else:
     exit("32bit Not Available")
 
